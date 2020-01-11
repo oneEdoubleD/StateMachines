@@ -1,3 +1,5 @@
+-- Based on the state diagram found here: https://www.researchgate.net/figure/TCP-Protocol-State-Machine_fig1_221609864
+
 data State
     = Listen
     | Syn_Recd
